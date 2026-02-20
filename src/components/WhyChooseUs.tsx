@@ -25,26 +25,26 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-white">
+    <section className="py-20 lg:py-32 bg-gradient-to-br from-slate-50 to-emerald-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="relative order-2 lg:order-1">
             <div className="absolute -inset-4 bg-gradient-to-br from-emerald-500/10 to-blue-500/10 rounded-3xl blur-2xl"></div>
 
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
               <img
                 src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Professional digital marketing team"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[600px] object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
 
-              <div className="absolute top-8 left-8 bg-emerald-600 text-white px-6 py-4 rounded-2xl shadow-xl">
+              <div className="absolute top-8 left-8 bg-emerald-600 text-white px-6 py-4 rounded-2xl shadow-xl group-hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl font-bold">14+</div>
                 <div className="text-sm font-medium mt-1">Years Experience</div>
               </div>
 
-              <div className="absolute bottom-8 right-8 bg-white px-6 py-4 rounded-2xl shadow-xl">
+              <div className="absolute bottom-8 right-8 bg-white px-6 py-4 rounded-2xl shadow-xl group-hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl font-bold text-emerald-600">500+</div>
                 <div className="text-sm font-medium text-gray-700 mt-1">Happy Clients</div>
               </div>
@@ -70,7 +70,7 @@ export default function WhyChooseUs() {
                 return (
                   <div
                     key={index}
-                    className="flex gap-4 p-6 rounded-xl hover:bg-slate-50 transition-all duration-300 group border border-transparent hover:border-slate-200"
+                    className="flex gap-4 p-6 rounded-xl hover:bg-white transition-all duration-300 group border border-transparent hover:border-emerald-200 hover:shadow-lg"
                   >
                     <div className="flex-shrink-0">
                       <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
