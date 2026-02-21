@@ -33,11 +33,11 @@ export default function CallToAction() {
             </a>
 
             <a
-              href="mailto:anand@ananyaseo.com"
+              href="mailto:sanand.raogmail.com"
               className="inline-flex items-center gap-3 px-10 py-5 bg-white hover:bg-gray-100 text-blue-900 font-bold rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 text-lg"
             >
               <Mail className="w-6 h-6" />
-              Email: anand@ananyaseo.com
+              Email: sanand.raogmail.com
             </a>
           </div>
         </div>
