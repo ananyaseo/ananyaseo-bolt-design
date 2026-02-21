@@ -29,7 +29,7 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://videos.pexels.com/video-files/3183190/3183190-uhd_2560_1440_24fps.mp4" type="video/mp4" />
+          <source src="https://www.ananyaseo.com/wp-content/uploads/2026/02/Drone-View-of-Bangkok-Cityscape.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/75 to-blue-900/85"></div>
       </div>
