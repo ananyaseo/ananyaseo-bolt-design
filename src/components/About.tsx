@@ -37,7 +37,7 @@ export default function About() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-emerald-600 rounded-lg flex items-center justify-center mb-4">
                   <Heart className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2">Client Focus</h3>
@@ -49,8 +49,8 @@ export default function About() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-emerald-500/20 to-blue-500/20 rounded-3xl blur-2xl"></div>
             <img
-              src="https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="SEO Audit Workspace"
+              src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Office team working on presentation"
               className="relative rounded-3xl shadow-2xl w-full h-auto"
               loading="lazy"
             />

@@ -15,7 +15,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-white">
+    <section className="py-20 lg:py-32 bg-slate-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold mb-4">
@@ -33,11 +33,11 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100"
+              className="bg-gradient-to-br from-teal-700 to-emerald-800 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300"
             >
-              <Quote className="w-12 h-12 text-emerald-600 mb-6 opacity-50" />
+              <Quote className="w-12 h-12 text-emerald-300 mb-6 opacity-70" />
 
-              <p className="text-gray-700 leading-relaxed mb-6 text-lg italic">
+              <p className="text-white leading-relaxed mb-6 text-lg italic">
                 "{testimonial.text}"
               </p>
 
@@ -45,12 +45,12 @@ export default function Testimonials() {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-16 h-16 rounded-full object-cover border-2 border-emerald-200"
+                  className="w-16 h-16 rounded-full object-cover border-2 border-white/30"
                   loading="lazy"
                 />
                 <div>
-                  <div className="font-bold text-slate-900">{testimonial.name}</div>
-                  <div className="flex text-yellow-400 text-sm mt-1">
+                  <div className="font-bold text-white">{testimonial.name}</div>
+                  <div className="flex text-yellow-300 text-sm mt-1">
                     {[...Array(5)].map((_, i) => (
                       <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
                         <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />

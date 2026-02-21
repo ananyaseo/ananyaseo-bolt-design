@@ -1,10 +1,11 @@
 import TopBar from './components/TopBar';
 import Hero from './components/Hero';
-import Stats from './components/Stats';
 import OurExpertise from './components/OurExpertise';
+import About from './components/About';
 import WhyChooseUs from './components/WhyChooseUs';
 import IndustriesServe from './components/IndustriesServe';
 import Testimonials from './components/Testimonials';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
     <div className="min-h-screen">
       <TopBar />
       <Hero />
-      <Stats />
       <OurExpertise />
+      <About />
       <WhyChooseUs />
       <IndustriesServe />
       <Testimonials />
+      <CallToAction />
       <Footer />
     </div>
   );
