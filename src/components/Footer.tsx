@@ -123,7 +123,7 @@ export default function Footer() {
           </div>
 
           <div className="text-center text-gray-400 text-sm pt-8 border-t border-gray-700">
-            <p>© 2026 Ananya SEO Services. All rights reserved. | Leading SEO Company in India | Digital Marketing & PPC Advertising Experts</p>
+            <p>© 2026 Ananya SEO Services. All rights reserved. | Leading SEO Company in India | Digital Marketing SEO, and PPC Advertising Experts</p>
           </div>
         </div>
       </div>
