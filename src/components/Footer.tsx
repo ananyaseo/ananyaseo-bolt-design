@@ -33,7 +33,7 @@ export default function Footer() {
               Leading SEO company in India providing affordable digital marketing solutions since 2010. Trusted by nonprofits, NGOs, startups, and small businesses.
             </p>
             <div className="flex items-center gap-6">
-              <a href="mailto:anand@ananyaseo.com" className="w-10 h-10 bg-emerald-600 hover:bg-emerald-700 rounded-lg flex items-center justify-center transition-colors">
+              <a href="mailto:sanand.rao@gmail.com" className="w-10 h-10 bg-emerald-600 hover:bg-emerald-700 rounded-lg flex items-center justify-center transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
               <a href="tel:+919845038936" className="w-10 h-10 bg-emerald-600 hover:bg-emerald-700 rounded-lg flex items-center justify-center transition-colors">
@@ -77,7 +77,7 @@ export default function Footer() {
                 <p className="text-emerald-100">Get started with future-ready digital marketing today</p>
               </div>
               <a
-                href="mailto:anand@ananyaseo.com"
+                href="mailto:sanand.rao@gmail.com"
                 className="bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center whitespace-nowrap"
               >
                 Get Free Consultation
