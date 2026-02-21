@@ -31,7 +31,7 @@ export default function Hero() {
         >
           <source src="https://www.ananyaseo.com/wp-content/uploads/2026/02/Drone-View-of-Bangkok-Cityscape.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/75 to-blue-900/85"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/40 via-slate-900/30 to-blue-900/40"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10 py-20 pb-32">
