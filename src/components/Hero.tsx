@@ -72,36 +72,31 @@ export default function Hero() {
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 z-10">
-        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-          <path d="M0 120L1440 120L1440 0C1440 0 1080 80 720 80C360 80 0 0 0 0L0 120Z" fill="white"/>
+        <svg viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
+          <path d="M0,80 Q360,30 720,80 T1440,80 L1440,200 L0,200 Z" fill="white" strokeWidth="2" stroke="white"/>
         </svg>
 
-        <div className="bg-white -mt-1">
-          <div className="container mx-auto px-6 lg:px-12 py-12">
-            <div className="grid md:grid-cols-3 gap-8">
-              {stats.map((stat, index) => {
-                const Icon = stat.icon;
-                return (
-                  <div
-                    key={index}
-                    className="flex items-center gap-4 bg-gradient-to-br from-slate-50 to-gray-100 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
-                  >
-                    <div className="flex-shrink-0">
-                      <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center">
-                        <Icon className="w-7 h-7 text-white" />
+        <div className="bg-white relative">
+          <div className="container mx-auto px-6 lg:px-12 py-12 relative">
+            <div className="bg-gradient-to-r from-blue-900/90 to-blue-800/90 backdrop-blur-md rounded-3xl p-12 shadow-2xl border border-blue-700/20">
+              <div className="grid md:grid-cols-3 gap-8">
+                {stats.map((stat, index) => {
+                  const Icon = stat.icon;
+                  return (
+                    <div key={index} className="flex flex-col items-center text-center">
+                      <div className="w-16 h-16 bg-emerald-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                        <Icon className="w-8 h-8 text-white" />
                       </div>
-                    </div>
-                    <div>
-                      <div className="text-3xl font-bold text-emerald-600">
+                      <div className="text-4xl font-bold text-white mb-2">
                         {stat.number}
                       </div>
-                      <div className="text-sm text-gray-700 font-medium">
+                      <div className="text-sm text-emerald-200 font-medium">
                         {stat.label}
                       </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>

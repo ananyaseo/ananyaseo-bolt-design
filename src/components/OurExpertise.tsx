@@ -31,8 +31,8 @@ export default function OurExpertise() {
         'Social Media Analytics & Reporting'
       ],
       image: 'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      color: 'from-white to-gray-50',
-      bgClass: 'bg-white'
+      color: 'from-emerald-700 to-teal-700',
+      bgClass: 'bg-gradient-to-br from-emerald-700 to-teal-800'
     },
     {
       icon: MousePointer,
@@ -63,22 +63,22 @@ export default function OurExpertise() {
         'Video Script Writing'
       ],
       image: 'https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&w=1200',
-      color: 'from-white to-gray-50',
-      bgClass: 'bg-white'
+      color: 'from-emerald-700 to-teal-700',
+      bgClass: 'bg-gradient-to-br from-emerald-700 to-teal-800'
     },
     {
       icon: Globe,
-      title: 'Local SEO',
-      description: 'Dominate local search results and attract more customers from your area. Perfect for businesses serving Bangalore and cities across India.',
+      title: 'Website Development',
+      description: 'At Ananya SEO, we build modern, fast, and SEO-optimized websites that not only look professional but also convert visitors into customers. Our websites are designed with search engines, users, and business growth in mind.',
       features: [
-        'Google My Business Optimization',
-        'Local Citation Building',
-        'Local Link Building',
-        'Location-Based Keywords',
-        'Google Maps Optimization',
-        'Local Review Management'
+        'Business Websites & Corporate Sites',
+        'Service-Based Websites',
+        'NGO & Nonprofit Websites',
+        'Lead Generation Platforms',
+        'WordPress Development & Customization',
+        'Performance & Scalability Optimization'
       ],
-      image: 'https://images.pexels.com/photos/2566865/pexels-photo-2566865.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.pexels.com/photos/3921516/pexels-photo-3921516.jpeg?auto=compress&cs=tinysrgb&w=1200',
       color: 'from-blue-900 to-slate-900',
       bgClass: 'bg-gradient-to-br from-blue-900 to-slate-900'
     }
