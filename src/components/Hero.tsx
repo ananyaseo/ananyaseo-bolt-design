@@ -21,17 +21,13 @@ export default function Hero() {
 
   return (
     <>
-      <section className="relative h-[calc(100vh-120px)] flex items-center justify-center overflow-hidden rounded-b-3xl">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
+          <img
+            src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Tech office interior"
             className="w-full h-full object-cover"
-          >
-            <source src="https://www.ananyaseo.com/wp-content/uploads/2026/02/Drone-View-of-Bangkok-Cityscape.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/40 via-slate-900/30 to-blue-900/40"></div>
         </div>
 
@@ -71,29 +67,23 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-        <div className="absolute bottom-0 left-0 right-0 z-10">
-          <svg viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0,80 Q360,30 720,80 T1440,80 L1440,200 L0,200 Z" fill="white" strokeWidth="2" stroke="white"/>
-          </svg>
-        </div>
       </section>
 
-      <div className="bg-white relative">
-        <div className="container mx-auto px-6 lg:px-12 py-12 relative">
-          <div className="bg-gradient-to-r from-blue-900/90 to-blue-800/90 backdrop-blur-md rounded-3xl p-12 shadow-2xl border border-blue-700/20">
-            <div className="grid md:grid-cols-3 gap-8">
+      <div className="bg-white relative -mt-20 pt-20 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 pb-8">
+          <div className="bg-gradient-to-r from-blue-900/90 to-blue-800/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-blue-700/20">
+            <div className="grid md:grid-cols-3 gap-6">
               {stats.map((stat, index) => {
                 const Icon = stat.icon;
                 return (
                   <div key={index} className="flex flex-col items-center text-center">
-                    <div className="w-16 h-16 bg-emerald-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                      <Icon className="w-8 h-8 text-white" />
+                    <div className="w-12 h-12 bg-emerald-600 rounded-2xl flex items-center justify-center mb-3 shadow-lg">
+                      <Icon className="w-6 h-6 text-white" />
                     </div>
-                    <div className="text-4xl font-bold text-white mb-2">
+                    <div className="text-3xl font-bold text-white mb-1">
                       {stat.number}
                     </div>
-                    <div className="text-sm text-emerald-200 font-medium">
+                    <div className="text-xs text-emerald-200 font-medium">
                       {stat.label}
                     </div>
                   </div>

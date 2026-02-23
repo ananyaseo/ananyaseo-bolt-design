@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
               <div className="inline-block px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold mb-4">
                 Why Choose Us
               </div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
                 Affordable Excellence Since 2010
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">

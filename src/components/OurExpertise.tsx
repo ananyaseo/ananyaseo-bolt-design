@@ -31,8 +31,8 @@ export default function OurExpertise() {
         'Social Media Analytics & Reporting'
       ],
       image: 'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      color: 'from-emerald-700 to-teal-700',
-      bgClass: 'bg-gradient-to-br from-emerald-700 to-teal-800'
+      color: 'from-blue-900 to-slate-900',
+      bgClass: 'bg-white'
     },
     {
       icon: MousePointer,
@@ -63,8 +63,8 @@ export default function OurExpertise() {
         'Video Script Writing'
       ],
       image: 'https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&w=1200',
-      color: 'from-emerald-700 to-teal-700',
-      bgClass: 'bg-gradient-to-br from-emerald-700 to-teal-800'
+      color: 'from-blue-900 to-slate-900',
+      bgClass: 'bg-white'
     },
     {
       icon: Globe,
@@ -78,7 +78,7 @@ export default function OurExpertise() {
         'WordPress Development & Customization',
         'Performance & Scalability Optimization'
       ],
-      image: 'https://images.pexels.com/photos/3921516/pexels-photo-3921516.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200',
       color: 'from-blue-900 to-slate-900',
       bgClass: 'bg-gradient-to-br from-blue-900 to-slate-900'
     }
@@ -91,10 +91,10 @@ export default function OurExpertise() {
           <div className="inline-block px-4 py-2 bg-emerald-600/20 text-emerald-700 rounded-full text-sm font-semibold mb-4 border border-emerald-500/30">
             Our Expertise
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
             Explore Our Comprehensive Digital Marketing Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             From SEO to social media, we deliver integrated digital marketing solutions that drive real business growth.
           </p>
         </div>

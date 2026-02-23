@@ -9,7 +9,7 @@ export default function About() {
             <div className="inline-block px-4 py-2 bg-emerald-600 text-white rounded-full text-sm font-semibold mb-2">
               About Us
             </div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
               Your Trusted Digital Marketing Partner Since 2010
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">

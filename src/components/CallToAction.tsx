@@ -10,7 +10,7 @@ export default function CallToAction() {
           className="w-full h-full object-cover"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/75 via-blue-900/70 to-slate-900/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/50 via-blue-900/45 to-slate-900/50"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
