@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TopBar from './components/TopBar';
 import Hero from './components/Hero';
 import OurExpertise from './components/OurExpertise';
@@ -7,8 +8,9 @@ import IndustriesServe from './components/IndustriesServe';
 import Testimonials from './components/Testimonials';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import SEO from './pages/SEO';
 
-function App() {
+function HomePage() {
   return (
     <div className="min-h-screen">
       <TopBar />
@@ -21,6 +23,17 @@ function App() {
       <CallToAction />
       <Footer />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/seo" element={<SEO />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

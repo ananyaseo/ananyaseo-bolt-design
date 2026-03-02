@@ -1,5 +1,6 @@
 import { Phone, Mail, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function TopBar() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -51,7 +52,7 @@ export default function TopBar() {
                 <ChevronDown className="w-4 h-4" />
               </button>
               <div className="absolute top-full left-0 mt-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all whitespace-nowrap">
-                <a href="https://www.ananyaseo.com/search-engine-optimization/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Search Engine Optimization</a>
+                <Link to="/seo" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Search Engine Optimization</Link>
                 <a href="https://www.ananyaseo.com/seo-pricing/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700 border-t border-gray-200">SEO Pricing</a>
                 <a href="https://www.ananyaseo.com/local-seo-services/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700 border-t border-gray-200">Local SEO Services</a>
                 <a href="https://www.ananyaseo.com/faq-on-seo/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700 border-t border-gray-200">FAQ on SEO</a>
