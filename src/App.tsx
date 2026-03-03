@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import SEO from './pages/SEO';
+import SEOPricing from './pages/SEOPricing';
 
 function HomePage() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/seo" element={<SEO />} />
+        <Route path="/seo-pricing" element={<SEOPricing />} />
       </Routes>
     </BrowserRouter>
   );
