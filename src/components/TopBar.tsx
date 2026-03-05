@@ -69,7 +69,7 @@ export default function TopBar() {
 
             <a href="https://www.ananyaseo.com/contact/" className="text-gray-700 hover:text-blue-900 font-medium transition-colors">Contact</a>
 
-            <a href="https://www.ananyaseo.com/blog/" className="text-gray-700 hover:text-blue-900 font-medium transition-colors">Blog</a>
+            <Link to="/blog" className="text-gray-700 hover:text-blue-900 font-medium transition-colors">Blog</Link>
           </div>
         </div>
       </nav>
